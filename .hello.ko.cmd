@@ -1,0 +1,1 @@
+cmd_/home/dirrialss/lab6/hello.ko := arm-eabi-ld -r  -EL -z noexecstack  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/dirrialss/lab6/hello.ko /home/dirrialss/lab6/hello.o /home/dirrialss/lab6/hello.mod.o ;  true
